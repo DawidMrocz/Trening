@@ -8,7 +8,11 @@ namespace Trening.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
+<<<<<<< HEAD
         "Freezing", "Bracing", "Chilly","Dawid", "Cool", "Mild", "Warm", "Balmy", "Hottsdser", "Sweltering", "Scorching","Cold","More Cold2"
+=======
+        "Freezing", "Bracing","Dawid", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hotter", "Sweltering", "Scorching","Cold","More Cold"
+>>>>>>> fix
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
