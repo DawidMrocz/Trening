@@ -8,16 +8,8 @@ namespace Trening.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "Freezing", "Bracing", "Chilly","Dawid", "Cool", "Mild", "Warm", "Balmy", "Hottsdser", "Sweltering", "Scorching","Cold","More Cold2"
-=======
-        "Freezing", "Bracing","Dawid", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hotter", "Sweltering", "Scorching","Cold","More Cold"
->>>>>>> fix
-=======
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hottsdser", "Sweltering", "Scorching","Cold","More Cold2"
->>>>>>> parent of 3de99de (Dodanie do listy)
-    };
+            "Dawid","Agata"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
