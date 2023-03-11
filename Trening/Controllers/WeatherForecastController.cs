@@ -8,6 +8,7 @@ namespace Trening.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
+
             "Dawid","Agata","Bartek","£ukasz"
         };
 
@@ -22,7 +23,6 @@ namespace Trening.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             Console.WriteLine("Bartek");
-            Console.WriteLine("Dawid");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
