@@ -22,6 +22,9 @@ namespace Trening.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             Console.WriteLine("Bartek");
+            //Added by other user meanwhile
+            Console.WriteLine("Dawid and Agata");
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
