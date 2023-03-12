@@ -18,7 +18,7 @@ namespace Trening.Controllers
         
         private static readonly string[] Summaries3 = new[]
         {
-            "Żona","Dzieci"
+            "Żona","Dzieci","Dzdiadkowie"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
