@@ -9,7 +9,7 @@ namespace Trening.Controllers
         private static readonly string[] Summaries = new[]
         {
 
-            "Dawid","Agata","Bartek","£ukasz"
+            "Dawid","Agata","Bartek","Â£ukasz","Agusia"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
