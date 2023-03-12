@@ -10,6 +10,11 @@ namespace Trening.Controllers
         {
             "Dawid","Agata","Bartek","£ukasz","Agusia"
         };
+        
+        private static readonly string[] Summaries2 = new[]
+        {
+            "Mama","Tata"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
