@@ -8,12 +8,12 @@ namespace Trening.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Dawid","Agata","Bartek","£ukasz","Agusia"
+            "Dawid","Agata","Bartek","£ukasz","Agusia","Kasia"
         };
         
         private static readonly string[] Summaries2 = new[]
         {
-            "Mama","Tata"
+            "Mama","Tata","Dziadek"
         };
         
         private static readonly string[] Summaries3 = new[]
