@@ -26,6 +26,11 @@ namespace Trening.Controllers
             "Żona","Dzieci","Dzdiadkowie"
         };
 
+        private static readonly string[] Summaries5 = new[]
+        {
+            "Żona","Dzieci","Dzdiadkowie"
+        };
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
